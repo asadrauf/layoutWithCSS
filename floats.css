@@ -1,0 +1,97 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  width: 960px;
+  margin: 0px auto;
+  overflow: auto;
+}
+
+header {
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+  border: 1px solid red;
+}
+
+#left {
+  float: left;
+  width: 33.5%;
+  padding: 30px;
+  background-color:#666;
+  border: 1px solid red;
+}
+
+#middle {
+  float: center;
+  margin: 0 auto;
+  width: 33.3%;
+  padding: 30px;
+  background-color: #888;
+  border: 1px solid red;
+}
+
+#right {
+  float: right;
+  margin: 0 auto;
+  width: 33.3%;
+  padding: 30px;
+  background-color:#666;
+  border: 1px solid red;
+}
+
+#full {
+  margin-top: 120px;
+  
+  width: 100%;
+  padding: 40px;
+  border: 1px solid red;
+  background-color: #333;
+ 
+  
+}
+
+#division {
+  background-color: aqua;
+  width: 100%x;
+  margin-right: -20px;
+  margin-left: -30px;
+  padding-right: 200px;
+  margin-top: -70px;
+  padding-bottom: 30px;
+  border: 1px solid red;
+  
+}
+
+  aside {
+    width: 40%;
+    height: 170px;
+    padding: 50px;
+    margin-left: -10px;
+    background: #a6b747;
+    border: 1px solid rgb(128, 22, 22);
+  }
+
+
+footer {
+  width: 960px;
+  margin-bottom: 15px;
+  padding: 30px;
+  position: absolute;
+  margin-top: 20px;
+  color: #333;
+  background: #ccc;
+
+}
+ #left, #middle, #right{
+  float: left;
+  width: 33%;
+}
